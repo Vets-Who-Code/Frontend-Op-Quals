@@ -3,6 +3,12 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 ---
 
+
+## Domain
+- Frontend Web Developer
+  - 
+  - https://frontendmasters.com/books/front-end-handbook/2019/#2
+
 ## Internet functionality and code work flows.
 - Internet Basics
   - Understand the impact of the internet and its ever expanding market=
