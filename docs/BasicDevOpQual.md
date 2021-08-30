@@ -1,4 +1,5 @@
 # Overview
+
 Frontend frontend engineers are expected to deliver performant and accessible user experiences that are delivered to web browsers.
 
 ---
@@ -6,12 +7,14 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 - Extra credit read: [https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
 # Objectives
+
 1. Domain
 1. Basic programming
 
 ## Domain
 
 ### Internet Basics
+
 - How can computers physically/wirelessly talk with each other?
 - What is a router and what does it do?
 - What is a modem?
@@ -22,6 +25,7 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 - [How the internet works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
 
 ### Web
+
 - What is the difference and relationship between Client vs server?
 - What is TCP/IP?
 - What is DNS?
@@ -34,11 +38,22 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 ### JS Intro
 
+- Describe Javascript's main use on the web
+- Demonstrate the use of a variable
+- Understand what an Application Programming Interface (API) is
+- List some browser APIs
+- List some third party APIs
+- Understand the order Javascript runs
+- Understand interpreted vs compiled code
+- Understand server side vs client side
+- Load Javascript to a web page
+- Use Javascript comments
+
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-### JS I
+### JS Foundations
 
-- Debug and log (console.log, browser `console` tab, Nodejs console)
+- Debug and log (console.log, browser `console` tab, Nodejs or browser console)
 - Create/update variables with any data type (string, boolean, integer)
 - Create conditional statements (if/else)
 - Create loops (for/while)
@@ -46,4 +61,4 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 - Create functions
 - Create/update objects
 
-- https://developer.chrome.com/docs/devtools/console/ 
+- https://developer.chrome.com/docs/devtools/console/
