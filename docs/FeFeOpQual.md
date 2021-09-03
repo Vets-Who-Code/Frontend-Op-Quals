@@ -47,53 +47,59 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 - Use CSS keyframe and transition animation
 - Use CSS Grid for layout
 - Use CSS variables
-- Know a few new CSS features
 - Use the SMACSS style guide to write clean CSS
 
 - https://css-tricks.com/snippets/css/keyframe-animation-syntax/
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-- https://torquemag.io/2021/03/new-css-features/
 - [SMACSS](http://smacss.com/)
+
+## Design Theory
+
+- Describe Hick's Law
+- Describe Jakob's Law
+- Describe Law of Common Region
+
+- https://lawsofux.com/
+
+## Design System
+
+- Have an idea about using shadow
+- Build responsive layouts
+- Use a grid to space elements
+- Use a color picking tool to design a theme
+
+- https://material.io/design/environment/light-shadows.html#shadows
+- https://material.io/design/layout/responsive-layout-grid.html#shadows
+- https://material.io/design/layout/spacing-methods.html#spacing
+- https://material.io/resources/color/#!/?view.left=0&view.right=0
 
 ## Accessibility
 
-- Accessibility
-  - Understand what is web accessibility
-  - Understand how to evaluate accessibility
-  - Understand how to develop with accessibility considerations
-    - (focus, color ratio)
-  - Use ARIA attributes
-- Auditing
-  - Audit web page performance/accessibility (browser `Lighthouse` tab)
+- Know about the A11y project and how it relates to WCAG
+- Know about some assistive technologies
+- Know some examples of inaccessible technology
+- Know how to find WCAG standards
+- Know how to audit a web page using Google Lighthouse
 
-## UI Design
-
-- [Figma.com](Figma.com)
-  - Design web pages using tool
-  - Share designs
+- https://www.a11yproject.com/
+- https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/
+- https://www.w3.org/WAI/standards-guidelines/wcag/
+- https://developers.google.com/web/tools/lighthouse
 
 ## UX
 
-- Draw.io
-  - Build wire frames
-  - Iterate and receive feedback on wire frames
+- Know some reasons why wireframes are helpful
+- Build a wireframe of a web page
 
-## Design Psychology
+- https://en.wikipedia.org/wiki/Website_wireframe
+- https://www.draw.io/
 
-- Concepts
+## UI Design
 
-  - Understand color theory
-  - Understand human computer interaction
-  - Understand design thinking
+- Design a web page from a wireframe using a design tool
 
-    - (color, balance, typography, contrast, consistency)
-
-  - Implement design systems
-  - Implement style guides
-  - Understand interaction design methodologies
-    - (Goal Driven Design, Usability, The Five Dimensions, Cognitive Psychology, and Human Interface Guidelines)
-  - Understand design strategies
+- https://www.figma.com/
 
 ## JS II
 
