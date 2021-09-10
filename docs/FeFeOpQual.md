@@ -8,12 +8,12 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 - Frontend Web Developer
 
-  - Understand client-side vs server-side development
+  - Explain client-side vs server-side development
   - List client-side languages
-  - Understand cross-browser vs cross-platform vs cross-device
-  - Know some common web browsers
-  - Know what a headless web browser is
-  - Know what webviews are
+  - Explain cross-browser vs cross-platform vs cross-device
+  - Explain some common web browsers
+  - Explain what a headless web browser is
+  - Explain what webviews are
   - List some "Native" (web native) technologies
   - https://frontendmasters.com/books/front-end-handbook/2019/#2
 
@@ -76,11 +76,11 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 ## Accessibility
 
-- Know about the A11y project and how it relates to WCAG
-- Know about some assistive technologies
-- Know some examples of inaccessible technology
-- Know how to find WCAG standards
-- Know how to audit a web page using Google Lighthouse
+- Explain about the A11y project and how it relates to WCAG
+- Explain about some assistive technologies
+- Explain some examples of inaccessible technology
+- Explain how to find WCAG standards
+- Explain how to audit a web page using Google Lighthouse
 
 - https://www.a11yproject.com/
 - https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/
@@ -89,7 +89,7 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 ## UX
 
-- Know some reasons why wireframes are helpful
+- Explain some reasons why wireframes are helpful
 - Build a wireframe of a web page
 
 - https://en.wikipedia.org/wiki/Website_wireframe
@@ -101,80 +101,67 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 - https://www.figma.com/
 
-## JS II
+## JS debugging
 
-- Nodejs
-  - Install JS dependencies via npm
-  - Use bundler (Parcel or Webpack)
-  - Create simple npm scripts
-- JS
-  - Understand scope
-  - Understand closures
-  - Understand hoisting
-  - Use higher order array functions (`map`, `filter`)
-  - Perform AJAX requests
-  - Use Promises
-  - Parse/stringify JSON data
-- Debug
-  - Troubleshoot using breakpoints in VS Code/browser
-- JS Testing
-  - Setup Jest
-  - Run Jest tests
-  - Create expectations/assertions
-  - Spy on functions
-  - Mock functions
-- Deploy to Static content provider (netlify, surge, Github pages)
+- Use console.log statements
+- Stretch: use in browser break points
 
-## React 0
+## JS browser dependencies
 
-## React I
+- Load JS dependencies via link tags
+- Ensure JS dependencies are ordered and don't break each other
 
-- React
-  - Install and run `create-react-app`
-  - Render Hooks
-  - Pass data via props
-  - Render lists
-  - Conditionally render components
-  - Setup event listeners
-  - Use React hooks (`useState`, `useEffect`, `useContext`)
-- ES6
-  - Understand purpose for Babel
-  - Use `let` and `const`
-  - Use Arrow functions
-  - Use `async`/`await`
-  - Use object destructuring
-- SASS
-  - Understand CSS preprocessing
-  - Understand CSS in JS
-  - Use Sass nesting
-  - Use Sass modules
+## JS npm
 
-## JS III
+- Install npm dependencies and dev dependencies for a repo
+- Run npm scripts
 
-- JS
-  - Understand some `this` binding issues
-  - Create object constructor with `function`
-- ES6
-  - Use Rest/Spread operators
-  - Use `class`, `constructor`, method syntaxes
-  - Use `for...of` and `for...in` loops
-  - Use optional chaining
-- React
-  - Use React Router
-  - Test React components
-  - Use React Testing Library to Render containers
-  - Use `jest-dom` for assertions
-- Debug
-  - Troubleshoot browser storage (browser `application` tab)
-  - Troubleshoot data fetching (browser `network` tab )
+## JS bundles
+
+- Use a JS bundler
+
+## JS Babel
+
+- Use new JS features
+- Use async/await
+- Use `let` and `const`
+- Use Arrow functions
+- Use Rest/Spread operators
+
+## JS Advanced
+
+- Use fetch api
+- Parse and stringify JSON
+- Hide variables in functions (closure?)
+- Use global variables in functions (scope?)
+- Use object destructuring
+
+## JS Testing
+
+- Use Jest
+- Use Jest mocks
+
+## React
+
+- Install and run `create-react-app`
+- Render Hooks
+- Pass data via props
+- Render lists
+- Conditionally render components
+- Setup event listeners
+- Use React hooks (`useState`, `useEffect`, `useContext`)
 
 ## Next.js
 
-- Understand the difference between SPA, and SSR vs SSG
+- Explain the difference between SPA, and SSR vs SSG
 - Use `create-next-app` to generate and develop apps
 - CRUD and navigate between pages
-- Understand Next.js pre-rendering
+- Explain Next.js pre-rendering
 - Generate static content (SSG) with `getStaticProps`
 - Use `getServerSideProps` to SSR
 - _bonus_ Build dynamic routes
 - _bonus_ Create static/dynamic API routes
+
+## Deploy
+
+- Deploy to a static content provider
