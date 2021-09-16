@@ -1,8 +1,18 @@
 # Full-Stack Developer Operator Qualifications
 
-In the Navy [operator qualifications](https://cool.osd.mil/usn/enlisted/so.htm) were how you proved your basic expertise in a [type of warfare](https://en.wikipedia.org/wiki/List_of_United_States_Navy_enlisted_warfare_designations). When deployed forward it was the highest important that everyone got their qualifications to designate that you had the prerequisite knowledge to keep everyone around you safe. Developer Operators are developers that can deploy to any development team, support best practices, cooperation, coordination, and technical excellence.
+In the Navy [operator qualifications](https://cool.osd.mil/usn/enlisted/so.htm) were how you proved your basic expertise in a [type of warfare](https://en.wikipedia.org/wiki/List_of_United_States_Navy_enlisted_warfare_designations). When deployed forward it was the highest importance that everyone got their qualifications to designate that you had the prerequisite knowledge to keep everyone around you safe. Developer Operators are developers that can deploy to any development team, support best practices, cooperation, coordination, and technical excellence.
 
-Of all the programming paradigms the Frontend (FE) community is one of the most welcoming to new developers. The [responsibilities of frontend developers are growing](https://css-tricks.com/the-widening-responsibility-for-front-end-developers/) and ever changing. For these reasons we think that FE is the most direct path to becoming a programmer from a veteran there is out there. We're going to break up the curriculum into several categories due to [the great divide](https://css-tricks.com/the-great-divide/) in our community between client and server.
+## Rationale
+
+Of all the programming paradigms the Frontend (FE) community is one of the most welcoming to new developers. The [responsibilities of frontend developers are growing](https://css-tricks.com/the-widening-responsibility-for-front-end-developers/) and ever changing. For these reasons we think that FE is the most direct path to becoming a programmer from a veteran there is out there. We're going to break up the curriculum into several categories due to [the great divide](https://css-tricks.com/the-great-divide/) in our community between frontend and backend making full stack developers.
+
+## Course Goals
+
+With this course students will be able to build full-stack web applications. This means they will be able to create well designed web sites that are performant and accessible. They will be able to add rich interactivity to these sites. By the end they will be able to deploy APIs and databases to support data fetching for their web applications.
+
+## Prerequisites
+
+Students should have completed the Vets Who Code pre-work, which covers the basics of HTML/CSS, Git, and the CLI.
 
 ## FE-FE Developer Operator
 
