@@ -22,7 +22,7 @@ Students should know the above concepts exist. They should also be able to find 
 
 Upon completion of this lesson, the student will have an understanding that computers connect to each other via a network and that there are addresses involved.
 
-## Critical content
+## Critical Content
 
 - How can computers physically/wirelessly talk with each other?
 - What is a router and what does it do?
