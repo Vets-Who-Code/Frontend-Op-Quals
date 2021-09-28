@@ -2,9 +2,9 @@
 
 ## Rationale
 
-## Learning Objectives
-
 ## Level of Learning
+
+## Learning Objectives
 
 ## Critical Content
 
