@@ -15,6 +15,7 @@ Frontend frontend engineers are expected to deliver performant and accessible us
   - Explain what a headless web browser is
   - Explain what webviews are
   - List some "Native" (web native) technologies
+
   - https://frontendmasters.com/books/front-end-handbook/2019/#2
 
 ## JS DOM
