@@ -30,12 +30,11 @@ At a high level explain different types of browsers, how those render data, how 
 
 - Read: https://frontendmasters.com/books/front-end-handbook/2019/#2
 
-
 # Pass a take home CSS interview
 
 ## Rationale
 
-As a developer who builds User Interfaces (UIs) it will be your job to style different components that display like buttons, tables, and text. UIs can get pretty complex. You'll end up layering elements on top of each other thus hiding some elements. It's very common then to later try and figure out which element is at which layer and trying to figure out when you apply a style to an element it breaks another one. 
+As a developer who builds User Interfaces (UIs) it will be your job to style different components that display like buttons, tables, and text. UIs can get pretty complex. You'll end up layering elements on top of each other thus hiding some elements. It's very common then to later try and figure out which element is at which layer and trying to figure out when you apply a style to an element it breaks another one.
 
 Welcome to the world of CSS. Complex UIs are tricky. So this module we want to give you some tools to be able to debug your CSS. Usually the workflow for CSS is use a browser's `elements` tab to change the style of some element until you like it. Then copy that style into your code. Then save it, run it, and check the browser to see if it did what you think it did. In this module we want you to get comfortable with the browser's elements tab because that is the source of truth for writing CSS.
 
@@ -55,6 +54,7 @@ We want you to be able to solve CSS problems using your browser's `elements` tab
 - Troubleshoot CSS specificity issues
 
 ## Lesson
+
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS
 
 # Build clean CSS
@@ -68,7 +68,6 @@ Building layouts with multiple columns gets challenging because at different scr
 In this course we recommend you pick up a CSS naming scheme. You will be typing more and in the beginning you'll wonder why you have to use a naming scheme. Trust us, once it is muscle memory it will help you navigate your CSS files so much easier.
 
 Lastly, because we live in a great world now where we have CSS variables we should use them. CSS variables are relatively new, but we recommend you use them because it'll make writing consistent css easier. It's nice to be able to define something once and use it in multiple places (especially colors).
-
 
 ## Level of Learning
 
@@ -94,7 +93,7 @@ You should be able to use CSS Grid, variables, and SMACSS to help you write more
 
 ## Rationale
 
-Now that you have the ability to make some pretty great designs with CSS it doesn't necessarily mean that it looks good. This module covers some ideas to keep in mind when building out designs. As UIs build up complexity it becomes more challenging to decipher what the intended goal of a page should be. 
+Now that you have the ability to make some pretty great designs with CSS it doesn't necessarily mean that it looks good. This module covers some ideas to keep in mind when building out designs. As UIs build up complexity it becomes more challenging to decipher what the intended goal of a page should be.
 
 We've all had the experience on a website not knowing where to find a certain button or questioning the intention of a page. This is known as a poor User Experience (UX). UX is the study of helping the user to find the information they are looking for as efficiently as possible. To build a good UI that provides a good UX devs and designers should take time and think about their users' goals before starting to put pen to paper.
 
@@ -150,3 +149,77 @@ At this point you should be able to create a well designed web page using a desi
 - https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/
 - https://www.w3.org/WAI/standards-guidelines/wcag/
 - https://developers.google.com/web/tools/lighthouse
+
+# Building with Javascript
+
+## Rationale
+
+Javascript is the primary programming language used to build web applications. The Javascript community has built a lot of tooling to help make writing quality and performant Javascript easier. This module we cover how to build with some community tooling to make more performant Javascript all the meanwhile unlocking the ability to use new Javascript features.
+
+The first technology you're going to need to be able to use is Node Package Manager (NPM). NPM is the repository that the JS community uses to publish code to use in your project. Load a JS bundler like Parcel to add loads of packages all at once and then to minimize your code making it more performant in production. When you load a bundler like Parcel you can add the Babel transpiler which will allow you to write JS code with new features while still supporting older browsers.
+
+## Level of Learning
+
+Apply
+
+## Learning Objectives
+
+Use a bundler like Parcel to load JS dependencies and transpile JS code by running a build/start command like `npm run start`.
+
+## Critical Content
+
+- Install npm dependencies
+- Use a JS bundler like Parcel
+- Use new JS features (like async/await, `let`/`const`, Arrow functions, and rest/spread operators )
+
+## Lesson
+
+# Javascript Testing and Data
+
+## Rationale
+
+Any programming application you build ends up getting more complex. At a certain scale you'll try to make changes to one part of your code, which ends up breaking another part of your code that you forgot about. At that point there are tools to help you become confident in your code. This is where a Javascript testing framework can really help out. In this section we introduce Javascript testing and data.
+
+"Why data?" you may ask. Well there are three reasons here. Reason one, data adds complexity to your application, which makes it a great candidate for testing. The second reason is that in your career without a doubt you will end up using an API that you'd then fetch data from. The last reason is that data fetching is an asynchronous process. It is very important to be able to understand how to build asynchronous Javascript.
+
+## Level of Learning
+
+Apply
+
+## Learning Objectives
+
+Build tested Javascript code that uses data fetching.
+
+## Critical Content
+
+- Use fetch api
+- Parse and stringify JSON
+- Use Jest
+
+## Lesson
+
+# Build React Apps
+
+## Rationale
+
+Now that you grasp Javascript and can build some features. It's important to build with industry standard javascript frameworks. The first JS framework we're going to cover is ReactJS. ReactJS is a library, which we end up using as a framework. It's a great framework that helps you manage your JS in a very predictable pattern giving you the ability to build enterprise scale applications.
+
+## Level of Learning
+
+Apply
+
+## Learning Objectives
+
+Use `create-react-app` to bootstrap a ReactJS project where you can then build a larger JS application. Build React apps using standard patterns.
+
+## Critical Content
+
+- Install and run `create-react-app`
+- Render Hooks
+- Pass data via props
+- Render lists
+- Conditionally render components
+- Setup event listeners
+- Use React hooks (`useState`, `useEffect`, `useContext`)
+
+## Lesson

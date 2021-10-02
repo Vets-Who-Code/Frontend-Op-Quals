@@ -102,32 +102,17 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 
 - https://www.figma.com/
 
-## JS debugging
-
-- Use console.log statements
-- Stretch: use in browser break points
-
-## JS browser dependencies
-
-- Load JS dependencies via link tags
-- Ensure JS dependencies are ordered and don't break each other
-
 ## JS npm
 
-- Install npm dependencies and dev dependencies for a repo
-- Run npm scripts
+- Install npm dependencies
 
 ## JS bundles
 
-- Use a JS bundler
+- Use a JS bundler like Parcel
 
 ## JS Babel
 
-- Use new JS features
-- Use async/await
-- Use `let` and `const`
-- Use Arrow functions
-- Use Rest/Spread operators
+- Use new JS features (like async/await, `let`/`const`, Arrow functions, and rest/spread operators )
 
 ## JS Advanced
 
