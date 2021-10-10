@@ -20,17 +20,16 @@ Memorize these concepts so you will better be able to collaborate with folks whe
 
 - Explain client-side vs server-side development
 - List client-side languages
-- Explain cross-browser vs cross-platform vs cross-device
 - Explain some common web browsers
 - Explain what a headless web browser is
 - Explain what webviews are
 - List some "Native" (web native) technologies
 
-## Lesson
+## Lessons
 
 - Read Frontend Masters' book [Chapter 1. What is a Front-end Developer?](https://frontendmasters.com/books/front-end-handbook/2019/#2)
 
-This book is a great place to come for a huge range of Front End topics. It can help to guide you on most of this journey. When you feel lost on what you believe your next steps or what skills you need. This is a great reference. Another good reference is [roadmap.sh](https://roadmap.sh/). We loosely follow the Frontend roadmap in this course. So when you are introduced to a new technology
+This book is a great place to come for a huge range of Front End topics. It can help to guide you on most of this journey. When you feel lost on what you believe your next steps or what skills you need. This is a great reference. Another good reference is [roadmap.sh](https://roadmap.sh/), I'd recommend book marking both the Frontend Masters book as well as roadmap.sh. We loosely follow the Frontend roadmap in this course. So when you are introduced to a new technology you should go to those resources to see how they fit in the grand scheme of your journey as a frontend dev.
 
 ### Study guide
 
@@ -43,6 +42,11 @@ This book is a great place to come for a huge range of Front End topics. It can 
 - Server-side: Code that runs in a server somewhere else that sends data over the internet to your browser
 - Client-side scripts: Run in the browser
 - Client-side languages: HTML, CSS, Javascript
+
+### References
+
+- [roadmap.sh](https://roadmap.sh/)
+- [Frontendmasters handbook](https://frontendmasters.com/books/front-end-handbook/2019/)
 
 # Pass a take home CSS interview
 
@@ -67,7 +71,19 @@ We want you to be able to solve CSS problems using your browser's `elements` tab
 - Show box model properties in the browser's inspector
 - Troubleshoot CSS specificity issues
 
-## Lesson
+## Lessons
+
+### Chrome Elements tab
+
+- See something with CSS Grid on the page
+- Update styles for an element
+- See/Update styles as they apply to the box model
+
+### Study Guide
+
+- Recorded a short [CSS Debugging demo](https://www.loom.com/share/190f302764c04293a49d97e323a3ed78)
+
+### References
 
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS
 
@@ -97,7 +113,7 @@ You should be able to use CSS Grid, variables, and SMACSS to help you write more
 - Use CSS variables
 - Use the SMACSS style guide to write clean CSS
 
-## Lesson
+## Lessons
 
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
@@ -145,7 +161,7 @@ At this point you should be able to create a well designed web page using a desi
 - Explain how to find WCAG standards
 - Explain how to audit a web page using Google Lighthouse
 
-## Lesson
+## Lessons
 
 - https://en.wikipedia.org/wiki/Website_wireframe
 - https://www.draw.io/
@@ -186,7 +202,7 @@ Use a bundler like Parcel to load JS dependencies and transpile JS code by runni
 - Use a JS bundler like Parcel
 - Use new JS features (like async/await, `let`/`const`, Arrow functions, and rest/spread operators )
 
-## Lesson
+## Lessons
 
 # Javascript Testing and Data
 
@@ -210,7 +226,7 @@ Build tested Javascript code that uses data fetching.
 - Parse and stringify JSON
 - Use Jest
 
-## Lesson
+## Lessons
 
 # Build React Apps
 
@@ -236,4 +252,4 @@ Use `create-react-app` to bootstrap a ReactJS project where you can then build a
 - Setup event listeners
 - Use React hooks (`useState`, `useEffect`, `useContext`)
 
-## Lesson
+## Lessons

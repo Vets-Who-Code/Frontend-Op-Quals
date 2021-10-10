@@ -8,4 +8,4 @@
 
 ## Critical Content
 
-## Lesson
+## Lessons
