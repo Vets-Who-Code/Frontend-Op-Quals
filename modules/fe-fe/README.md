@@ -10,11 +10,11 @@ Because our professional specialty is so new, often you will find yourself at co
 
 ## Level of Learning
 
-This module is a high level overview of underlying frontend technology. Students should be able to chat about this topic but not needed to have in depth conversations about the history, differences between browser implementations.
+remember
 
 ## Learning Objectives
 
-At a high level explain different types of browsers, how those render data, how mobile fits into frontend, and how frontend is different than backend.
+Memorize these concepts so you will better be able to collaborate with folks when building projects that touch technologies outside the field.
 
 ## Critical Content
 
@@ -28,7 +28,21 @@ At a high level explain different types of browsers, how those render data, how 
 
 ## Lesson
 
-- Read: https://frontendmasters.com/books/front-end-handbook/2019/#2
+- Read Frontend Masters' book [Chapter 1. What is a Front-end Developer?](https://frontendmasters.com/books/front-end-handbook/2019/#2)
+
+This book is a great place to come for a huge range of Front End topics. It can help to guide you on most of this journey. When you feel lost on what you believe your next steps or what skills you need. This is a great reference. Another good reference is [roadmap.sh](https://roadmap.sh/). We loosely follow the Frontend roadmap in this course. So when you are introduced to a new technology
+
+### Study guide
+
+- Client-side: A browser that is loaded from your computer
+- Different web browsers: Google Chrome, Mozilla Firefox, Brave
+- Different types of browsers: Headless, web, Webview
+- Headless browser: A way to control web pages without a GUI (Graphical User Interface)
+- Webviews: way to display websites on mobile (native) apps
+- Native technologies: Flutter, React Native, NativeScript
+- Server-side: Code that runs in a server somewhere else that sends data over the internet to your browser
+- Client-side scripts: Run in the browser
+- Client-side languages: HTML, CSS, Javascript
 
 # Pass a take home CSS interview
 

@@ -22,7 +22,8 @@ async function main(argv) {
   const sectionsArray = fs
     .readFileSync(`${root}${argv.file}`)
     .toString()
-    .split(/\n\#\s/);
+    .split(/\n\#\s/)
+    .map((section) => `# ${section}`); // Readds the header that was removed from split;
 
   await Promise.all(
     sectionsArray.map(async (section, i) => {
@@ -30,12 +31,9 @@ async function main(argv) {
       // TODO: Currently only supports hardcoded folder titles
       const moduleFolder = `${root}module-${i.toString().padStart(2, "0")}`;
 
-      // Need to reinject text in sections (deleted initial # from regex split)
       // TODO: Inject grading sections for each README module (maybe lesson?)
-      const sectionText = `# ${section}`;
-
       await mkdirp(moduleFolder);
-      return fs.writeFile(`${moduleFolder}/README.md`, sectionText, (err) => {
+      return fs.writeFile(`${moduleFolder}/README.md`, section, (err) => {
         if (err) throw err;
         console.log(`Saved ${moduleFolder}`);
       });
