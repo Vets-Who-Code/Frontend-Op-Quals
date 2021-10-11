@@ -1,5 +1,8 @@
 # Building with Javascript
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 Javascript is the primary programming language used to build web applications. The Javascript community has built a lot of tooling to help make writing quality and performant Javascript easier. This module we cover how to build with some community tooling to make more performant Javascript all the meanwhile unlocking the ability to use new Javascript features.
@@ -20,4 +23,4 @@ Use a bundler like Parcel to load JS dependencies and transpile JS code by runni
 - Use a JS bundler like Parcel
 - Use new JS features (like async/await, `let`/`const`, Arrow functions, and rest/spread operators )
 
-## Lesson
+## Lessons

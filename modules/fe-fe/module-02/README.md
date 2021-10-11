@@ -1,5 +1,8 @@
 # Build clean CSS
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 CSS isn't just about building clean looking websites. It is also about writing clean, maintainable code. CSS can get pretty tough to read pretty quickly. Also, usually you won't be writing CSS alone, you'll be on a team. Other folks will need to be able to read and follow your code.
@@ -24,7 +27,7 @@ You should be able to use CSS Grid, variables, and SMACSS to help you write more
 - Use CSS variables
 - Use the SMACSS style guide to write clean CSS
 
-## Lesson
+## Lessons
 
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties

@@ -1,4 +1,7 @@
-# # What is Frontend?
+# What is Frontend?
+
+| Section | Grade | Notes |
+| --- | --- | --- |
 
 ## Rationale
 
@@ -20,17 +23,16 @@ Memorize these concepts so you will better be able to collaborate with folks whe
 
 - Explain client-side vs server-side development
 - List client-side languages
-- Explain cross-browser vs cross-platform vs cross-device
 - Explain some common web browsers
 - Explain what a headless web browser is
 - Explain what webviews are
 - List some "Native" (web native) technologies
 
-## Lesson
+## Lessons
 
 - Read Frontend Masters' book [Chapter 1. What is a Front-end Developer?](https://frontendmasters.com/books/front-end-handbook/2019/#2)
 
-This book is a great place to come for a huge range of Front End topics. It can help to guide you on most of this journey. When you feel lost on what you believe your next steps or what skills you need. This is a great reference. Another good reference is [roadmap.sh](https://roadmap.sh/). We loosely follow the Frontend roadmap in this course. So when you are introduced to a new technology
+This book is a great place to come for a huge range of Front End topics. It can help to guide you on most of this journey. When you feel lost on what you believe your next steps or what skills you need. This is a great reference. Another good reference is [roadmap.sh](https://roadmap.sh/), I'd recommend book marking both the Frontend Masters book as well as roadmap.sh. We loosely follow the Frontend roadmap in this course. So when you are introduced to a new technology you should go to those resources to see how they fit in the grand scheme of your journey as a frontend dev.
 
 ### Study guide
 
@@ -43,3 +45,8 @@ This book is a great place to come for a huge range of Front End topics. It can 
 - Server-side: Code that runs in a server somewhere else that sends data over the internet to your browser
 - Client-side scripts: Run in the browser
 - Client-side languages: HTML, CSS, Javascript
+
+### References
+
+- [roadmap.sh](https://roadmap.sh/)
+- [Frontendmasters handbook](https://frontendmasters.com/books/front-end-handbook/2019/)

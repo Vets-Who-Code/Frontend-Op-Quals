@@ -1,5 +1,8 @@
 # Javascript Testing and Data
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 Any programming application you build ends up getting more complex. At a certain scale you'll try to make changes to one part of your code, which ends up breaking another part of your code that you forgot about. At that point there are tools to help you become confident in your code. This is where a Javascript testing framework can really help out. In this section we introduce Javascript testing and data.
@@ -20,4 +23,4 @@ Build tested Javascript code that uses data fetching.
 - Parse and stringify JSON
 - Use Jest
 
-## Lesson
+## Lessons

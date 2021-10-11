@@ -1,5 +1,8 @@
 # Build React Apps
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 Now that you grasp Javascript and can build some features. It's important to build with industry standard javascript frameworks. The first JS framework we're going to cover is ReactJS. ReactJS is a library, which we end up using as a framework. It's a great framework that helps you manage your JS in a very predictable pattern giving you the ability to build enterprise scale applications.
@@ -22,4 +25,4 @@ Use `create-react-app` to bootstrap a ReactJS project where you can then build a
 - Setup event listeners
 - Use React hooks (`useState`, `useEffect`, `useContext`)
 
-## Lesson
+## Lessons

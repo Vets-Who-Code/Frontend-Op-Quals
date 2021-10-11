@@ -1,5 +1,6 @@
 const fs = require("fs");
 const mkdirp = require("mkdirp");
+const { injectGradingTable } = require("./inject");
 
 const argv = require("yargs/yargs")(process.argv.slice(2))
   .command("$0 <file>", "parse given file", (yargs) => {
@@ -23,17 +24,18 @@ async function main(argv) {
     .readFileSync(`${root}${argv.file}`)
     .toString()
     .split(/\n\#\s/)
-    .map((section) => `# ${section}`); // Readds the header that was removed from split;
+    .map((section, i) => (i > 0 ? `# ${section}` : section)); // Readds the header that was removed from split;
 
   await Promise.all(
     sectionsArray.map(async (section, i) => {
       // Creates a modules-## folder for each section
       // TODO: Currently only supports hardcoded folder titles
       const moduleFolder = `${root}module-${i.toString().padStart(2, "0")}`;
+      let content = injectGradingTable(section);
 
       // TODO: Inject grading sections for each README module (maybe lesson?)
       await mkdirp(moduleFolder);
-      return fs.writeFile(`${moduleFolder}/README.md`, section, (err) => {
+      return fs.writeFile(`${moduleFolder}/README.md`, content, (err) => {
         if (err) throw err;
         console.log(`Saved ${moduleFolder}`);
       });

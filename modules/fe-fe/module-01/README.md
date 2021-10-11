@@ -1,5 +1,8 @@
 # Pass a take home CSS interview
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 As a developer who builds User Interfaces (UIs) it will be your job to style different components that display like buttons, tables, and text. UIs can get pretty complex. You'll end up layering elements on top of each other thus hiding some elements. It's very common then to later try and figure out which element is at which layer and trying to figure out when you apply a style to an element it breaks another one.
@@ -21,6 +24,18 @@ We want you to be able to solve CSS problems using your browser's `elements` tab
 - Show box model properties in the browser's inspector
 - Troubleshoot CSS specificity issues
 
-## Lesson
+## Lessons
+
+### Chrome Elements tab
+
+- See something with CSS Grid on the page
+- Update styles for an element
+- See/Update styles as they apply to the box model
+
+### Study Guide
+
+- Recorded a short [CSS Debugging demo](https://www.loom.com/share/190f302764c04293a49d97e323a3ed78)
+
+### References
 
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS

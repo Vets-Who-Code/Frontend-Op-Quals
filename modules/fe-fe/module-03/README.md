@@ -1,5 +1,8 @@
 # Design intro
 
+| Section | Grade | Notes |
+| --- | --- | --- |
+
 ## Rationale
 
 Now that you have the ability to make some pretty great designs with CSS it doesn't necessarily mean that it looks good. This module covers some ideas to keep in mind when building out designs. As UIs build up complexity it becomes more challenging to decipher what the intended goal of a page should be.
@@ -40,7 +43,7 @@ At this point you should be able to create a well designed web page using a desi
 - Explain how to find WCAG standards
 - Explain how to audit a web page using Google Lighthouse
 
-## Lesson
+## Lessons
 
 - https://en.wikipedia.org/wiki/Website_wireframe
 - https://www.draw.io/
