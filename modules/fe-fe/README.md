@@ -115,9 +115,17 @@ You should be able to use CSS Grid, variables, and SMACSS to help you write more
 
 ## Lessons
 
+- Make a web page with a single column layout `max-width: 900px` and then for screen sizes that are larger make the layout look like the below image. (hint: CSS Grid can help)
+  - Add some CSS variables (colors are usually a good introduction)
+  - Use SMACSS to name your CSS classes
+    ![](https://css-tricks.com/wp-content/uploads/2018/11/dddgrid-template-areas.svg)
+
+### Study Guide
+
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 - [SMACSS](http://smacss.com/)
+- [The Net Ninja CSS-Grid](https://www.youtube.com/watch?v=x7tLPhnA06w&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY)
 
 # Design intro
 
@@ -163,22 +171,30 @@ At this point you should be able to create a well designed web page using a desi
 
 ## Lessons
 
-- https://en.wikipedia.org/wiki/Website_wireframe
-- https://www.draw.io/
+- Use Figma to design a web page using the layout from the last lesson.
+  - Take into account color contrast accessibility standards
+  - Use a design system like Material to separate and group your elements
+  - Use UX Laws to explain your design to others
 
-- https://www.figma.com/
+### Study Guide
 
-- https://lawsofux.com/
+#### Resources
 
-- https://material.io/design/environment/light-shadows.html#shadows
-- https://material.io/design/layout/responsive-layout-grid.html#shadows
-- https://material.io/design/layout/spacing-methods.html#spacing
-- https://material.io/resources/color/#!/?view.left=0&view.right=0
+- [Great Wireframing tool](https://www.draw.io/)
 
-- https://www.a11yproject.com/
-- https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/
-- https://www.w3.org/WAI/standards-guidelines/wcag/
-- https://developers.google.com/web/tools/lighthouse
+- [Great design tool](https://www.figma.com/)
+
+- [Laws of UX](https://lawsofux.com/)
+
+- [Material design shadows](https://material.io/design/environment/light-shadows.html#shadows)
+- [Material design layout](https://material.io/design/layout/responsive-layout-grid.html#shadows)
+- [Material design spacing](https://material.io/design/layout/spacing-methods.html#spacing)
+- [Material design color](https://material.io/resources/color/#!/?view.left=0&view.right=0)
+
+- [a11y project](https://www.a11yproject.com/)
+- [intro to accessibility](https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/)
+- [Accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 # Building with Javascript
 
