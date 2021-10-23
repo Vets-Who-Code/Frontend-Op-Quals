@@ -216,9 +216,19 @@ Use a bundler like Parcel to load JS dependencies and transpile JS code by runni
 
 - Install npm dependencies
 - Use a JS bundler like Parcel
-- Use new JS features (like async/await, `let`/`const`, Arrow functions, and rest/spread operators )
+- Use new JS features
 
 ## Lessons
+
+- Run through the ParcelJS getting started guide
+- If you can go to: `http://localhost:1234` then your sever is running
+  - You should be able to save changes and watch your browser refresh with the changes
+  - You also should be able to use the `import`/`export` syntax from ES modules.
+
+### Resources
+
+- https://parceljs.org/getting-started/webapp/
+- https://parceljs.org/languages/javascript/#es-modules
 
 # Javascript Testing and Data
 
@@ -243,6 +253,13 @@ Build tested Javascript code that uses data fetching.
 - Use Jest
 
 ## Lessons
+
+- Follow the Jest Getting started guide
+- Create another JS function that divides two numbers and test that function
+
+### Resources
+
+- https://jestjs.io/docs/getting-started
 
 # Build React Apps
 
@@ -269,3 +286,12 @@ Use `create-react-app` to bootstrap a ReactJS project where you can then build a
 - Use React hooks (`useState`, `useEffect`, `useContext`)
 
 ## Lessons
+
+- Set up React in your project that's being built with Parcel
+- Create a button that increments a number
+- Create another button that decrements that number
+- Display that number with another component
+
+### Resources
+
+- https://parceljs.org/recipes/react/
