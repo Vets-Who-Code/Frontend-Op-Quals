@@ -36,10 +36,15 @@ Upon completion of this lesson, the student will have an understanding that comp
 - What is HTTP?
 - What are some examples of files you may find on a website?
 
-## Lesson: Learn about the internet
+## Lessons
 
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+### Resources
+
+- https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+- https://howdns.works/
 
 # JS Foundations
 
@@ -94,8 +99,3 @@ Students should be able to perform critical content tasks from muscle memory. Th
 - [Array building] Create a Javascript program that has a list of TV show quotes and returns a random quote.
 - [Loops]
 - [Object/Array CRUD]
-
-# Recommended Reading List
-
-- https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
-- https://howdns.works/
