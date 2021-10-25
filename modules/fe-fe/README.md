@@ -221,7 +221,7 @@ Use a bundler like Parcel to load JS dependencies and transpile JS code by runni
 ## Lessons
 
 - Run through the ParcelJS getting started guide
-- If you can go to: `http://localhost:1234` then your sever is running
+- If you can go to: `http://localhost:1234` then your server is running
   - You should be able to save changes and watch your browser refresh with the changes
   - You also should be able to use the `import`/`export` syntax from ES modules.
 
