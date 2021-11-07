@@ -151,3 +151,5 @@ Frontend frontend engineers are expected to deliver performant and accessible us
 ## Deploy
 
 - Deploy to a static content provider
+
+## APIs Graphql/REST
