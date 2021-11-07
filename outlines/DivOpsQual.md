@@ -24,3 +24,4 @@
 - Setup Cloudwatch to monitor the health of Lambda
 - Setup an alarm for elevated error rates
 - Send an email notification if an error rate threshold passes
+
