@@ -85,8 +85,8 @@
 
 ## NodeJS
 
-- env vars
-- process.argv
+-
+- process (env/argv)
 - CommonJS
 - HTTP Requests
 - reading/writing to files (fs/path)
