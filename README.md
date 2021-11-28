@@ -1,33 +1,129 @@
-# Full-Stack Developer Operator Qualifications
+<h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code</h1>
+<h2 align="center">Web Dev Curriculum</h2>
 
-In the Navy [operator qualifications](https://cool.osd.mil/usn/enlisted/so.htm) were how you proved your basic expertise in a [type of warfare](https://en.wikipedia.org/wiki/List_of_United_States_Navy_enlisted_warfare_designations). When deployed forward it was the highest importance that everyone got their qualifications to designate that you had the prerequisite knowledge to keep everyone around you safe. Developer Operators are developers that can deploy to any development team, support best practices, cooperation, coordination, and technical excellence.
+# Section 1 - [Pre Work](https://github.com/Vets-Who-Code/Prework) Review
 
-## Rationale
+## Dev work flow
 
-Of all the programming paradigms the Frontend (FE) community is one of the most welcoming to new developers. The [responsibilities of frontend developers are growing](https://css-tricks.com/the-widening-responsibility-for-front-end-developers/) and ever changing. For these reasons we think that FE is the most direct path to becoming a programmer from a veteran there is out there. We're going to break up the curriculum into several categories due to [the great divide](https://css-tricks.com/the-great-divide/) in our community between frontend and backend making full stack developers.
+- Command Line
+- VS Code
+- Markdown
+- Git / Git Workflow
+- Github Pages
 
-## Course Goals
+## Javascript
 
-With this course students will be able to build full-stack web applications. This means they will be able to create well designed web sites that are performant and accessible. They will be able to add rich interactivity to these sites. By the end they will be able to deploy APIs and databases to support data fetching for their web applications.
+- JS Dev tools (Console tab)
+- Load JS (Source tab/`<script>`)
+- Primitives
+- Conditionals
+- Arrays
+- Loops
+- Functions
+- Objects
 
-## Prerequisites
+## JS DOM
 
-Students should have completed the Vets Who Code pre-work, which covers the basics of HTML/CSS, Git, and the CLI.
+- Select HTML elements
+- Add/remove elements
+- Update element properties
+- DOM events
 
-## FE-FE Developer Operator
+## HTML
 
-Frontend-Frontend developer operators own the browser. They can build reusable components with best practices for rendering in browser clients. They know how to use frontend build tooling. These operators focus planning and delivering accessible user experiences. They can integrate with 3rd party APIs, manage application state, and handle data flow through their app.
+- [Sectioning content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#sectioning_content)
+- [Form-associated content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#form-associated_content)
+- [Interactive content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#interactive_content)
 
-## FE-BE Developer Operator
+## CSS
 
-Frontend-Backend developer operators focus on building APIs and integrating with databases. Operators with this qualification can rapidly build scale-able REST and Graphql API style endpoints. They can integrate data stored in key/value stores and relational databases.
+- Debugging (elements tab)
+- Box model
+- Flexbox
+- Grid
+- SMACSS
 
-## FE-DevOps Operator
+## JS Async
 
-Frontend-Developer-Operations operators build infrastructure and enable all other frontend developers. They focus on containerization, CI/CD deployments, workflows, and building cloud native solutions.
+- `setTimeout`
+- `setInterval`
+- Promises
 
-## Expected deliverables
+## JS 3rd Party API
 
-To qualify as a full-stack frontend developer students should be able to demonstrate the knowledge and skills listed in these wikis. This clarity will help students prioritize content as primary, secondary, and tertiary details. The focus should help students know what content is foundational.
-​
-At the end of this course students should be able to collaboratively plan, build, and deploy tested full stack web apps to multiple cloud services at enterprise level scale.
+- Fetch
+- JSON
+- REST
+- Graphql
+
+# Section 2 - Frontend Tooling
+
+## JS Build
+
+- NPM
+- ParcelJS
+
+## React
+
+- `create-react-app`
+- Hooks
+- props
+- Render lists
+- Conditional Rendering
+- Event listeners
+- React hooks (`useState`, `useEffect`, `useContext`)
+
+## Next.js
+
+- `create-next-app`
+- Routing
+- `getStaticProps`
+- `getServerSidProps`
+- Vercel
+
+# Section 3 - Server Side
+
+## NodeJS
+
+- env vars
+- process.argv
+- CommonJS
+- HTTP Requests
+- reading/writing to files (fs/path)
+
+## Database
+
+- Mongoose
+- MongoDB
+- Mongo Atlas
+
+## REST (ExpressJS)
+
+- Request
+- Response
+- Router
+
+## Graphql (Apollo)
+
+- Schema
+- Resolvers
+- Data Source
+- Apollo Client
+
+# Section 4 - Div Ops
+
+## Docker
+
+- Dockerfile
+- Build/Run images
+
+## Github Actions
+
+- Workflows
+- Events
+- Jobs
+
+## AWS
+
+- Lambda
+- SAM
